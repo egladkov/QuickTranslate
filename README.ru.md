@@ -117,7 +117,7 @@
 
 ## Системные требования
 
-- **Операционная система**: Windows 10 (64-битная) или Windows 11 (64-битная).
+- **Операционная система**: Windows 10 или Windows 11 (поддерживаются как 64-битные **x64**, так и 32-битные **x86** системы).
 - **Интернет**: Требуется для связи с серверами перевода.
 - **Сторонние компоненты**: Не требуются. Автономная сборка содержит всё необходимое для запуска.
 
@@ -129,7 +129,7 @@
 
 ### Требования
 - [.NET 10.0 SDK](https://dotnet.microsoft.com/download) (или новее)
-- Windows 10/11 x64
+- Windows 10/11 (x64 или x86)
 
 ### Сборка и тестирование
 ```powershell
@@ -143,11 +143,14 @@ dotnet build QuickTranslate.slnx
 # Запустить автоматические тесты (121 тест)
 dotnet test
 
-# Опубликовать автономный однофайловый EXE
+# Опубликовать 64-битный автономный однофайловый EXE (win-x64)
 dotnet publish src/QuickTranslate/QuickTranslate.csproj -c Release -o ./publish
+
+# Или опубликовать 32-битный автономный однофайловый EXE (win-x86)
+dotnet publish src/QuickTranslate/QuickTranslate.csproj -c Release -r win-x86 -o ./publish-x86
 ```
 
-Собранный файл `QuickTranslate.exe` появится в папке `./publish`.
+Собранный файл `QuickTranslate.exe` появится в папке `./publish` (или `./publish-x86`).
 
 ---
 

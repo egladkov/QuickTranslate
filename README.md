@@ -117,7 +117,7 @@ Settings are saved in `%APPDATA%\QuickTranslate\settings.json`.
 
 ## System Requirements
 
-- **Operating System**: Windows 10 (64-bit) or Windows 11 (64-bit).
+- **Operating System**: Windows 10 or Windows 11 (both 64-bit **x64** and 32-bit **x86** architectures supported).
 - **Internet Connection**: Required to connect to translation services.
 - **Dependencies**: None. The standalone executable includes everything needed to run.
 
@@ -129,7 +129,7 @@ If you wish to build or modify QuickTranslate yourself:
 
 ### Prerequisites
 - [.NET 10.0 SDK](https://dotnet.microsoft.com/download) (or newer)
-- Windows 10/11 x64
+- Windows 10/11 (x64 or x86)
 
 ### Build & Run Tests
 ```powershell
@@ -143,11 +143,14 @@ dotnet build QuickTranslate.slnx
 # Run automated tests (121 tests)
 dotnet test
 
-# Publish standalone single-file EXE
+# Publish 64-bit standalone single-file EXE (win-x64)
 dotnet publish src/QuickTranslate/QuickTranslate.csproj -c Release -o ./publish
+
+# Or publish 32-bit standalone single-file EXE (win-x86)
+dotnet publish src/QuickTranslate/QuickTranslate.csproj -c Release -r win-x86 -o ./publish-x86
 ```
 
-The resulting `QuickTranslate.exe` will be located in the `./publish` directory.
+The resulting `QuickTranslate.exe` will be located in the `./publish` (or `./publish-x86`) directory.
 
 ---
 
