@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/QuickTranslate/QuickTranslate.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/QuickTranslate.Tests/QuickTranslate.Tests.csproj" />
+  </Folder>
+</Solution>

@@ -1,0 +1,12 @@
+## [Visual Studio / .NET .gitignore]
+bin/
+obj/
+publish/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+.idea/
+*.log
+TestResults/

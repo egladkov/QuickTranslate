@@ -1,0 +1,89 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- Light Theme Colors and Brushes -->
+    
+    <!-- Window and Cards -->
+    <SolidColorBrush x:Key="WindowBackgroundBrush" Color="#F8FAFC"/>
+    <SolidColorBrush x:Key="WindowBorderBrush" Color="#E2E8F0"/>
+    <SolidColorBrush x:Key="CardBackgroundBrush" Color="#FFFFFF"/>
+    <SolidColorBrush x:Key="CardBorderBrush" Color="#E2E8F0"/>
+    <SolidColorBrush x:Key="CardTitleBrush" Color="#0F172A"/>
+
+    <!-- Text -->
+    <SolidColorBrush x:Key="TextPrimaryBrush" Color="#0F172A"/>
+    <SolidColorBrush x:Key="TextSecondaryBrush" Color="#475569"/>
+    <SolidColorBrush x:Key="TextMutedBrush" Color="#64748B"/>
+    <SolidColorBrush x:Key="TextHintBrush" Color="#94A3B8"/>
+
+    <!-- Input Box -->
+    <SolidColorBrush x:Key="InputBackgroundBrush" Color="#F8FAFC"/>
+    <SolidColorBrush x:Key="InputBorderBrush" Color="#E2E8F0"/>
+    <SolidColorBrush x:Key="InputTextBrush" Color="#334155"/>
+    <SolidColorBrush x:Key="InputPlaceholderBrush" Color="#94A3B8"/>
+
+    <!-- Primary Action Button -->
+    <SolidColorBrush x:Key="PrimaryButtonBackgroundBrush" Color="#2563EB"/>
+    <SolidColorBrush x:Key="PrimaryButtonHoverBrush" Color="#1D4ED8"/>
+    <SolidColorBrush x:Key="PrimaryButtonPressedBrush" Color="#1E40AF"/>
+    <SolidColorBrush x:Key="PrimaryButtonForegroundBrush" Color="#FFFFFF"/>
+
+    <!-- Secondary Button -->
+    <SolidColorBrush x:Key="SecondaryButtonBackgroundBrush" Color="#F1F5F9"/>
+    <SolidColorBrush x:Key="SecondaryButtonForegroundBrush" Color="#334155"/>
+    <SolidColorBrush x:Key="SecondaryButtonBorderBrush" Color="#CBD5E1"/>
+    <SolidColorBrush x:Key="SecondaryButtonHoverBrush" Color="#E2E8F0"/>
+    <SolidColorBrush x:Key="SecondaryButtonPressedBrush" Color="#CBD5E1"/>
+
+    <!-- Window Headers and Footers -->
+    <SolidColorBrush x:Key="HeaderBackgroundBrush" Color="#F8FAFC"/>
+    <SolidColorBrush x:Key="HeaderBorderBrush" Color="#F1F5F9"/>
+    <SolidColorBrush x:Key="FooterBackgroundBrush" Color="#F8FAFC"/>
+    <SolidColorBrush x:Key="FooterBorderBrush" Color="#F1F5F9"/>
+
+    <!-- Icon Buttons (Close, etc.) -->
+    <SolidColorBrush x:Key="IconButtonForegroundBrush" Color="#71717A"/>
+    <SolidColorBrush x:Key="IconButtonHoverBackgroundBrush" Color="#1A000000"/>
+    <SolidColorBrush x:Key="IconButtonHoverForegroundBrush" Color="#18181B"/>
+    <SolidColorBrush x:Key="IconButtonPressedBackgroundBrush" Color="#2A000000"/>
+
+    <!-- Language Badges -->
+    <SolidColorBrush x:Key="BadgeSourceBackgroundBrush" Color="#EFF6FF"/>
+    <SolidColorBrush x:Key="BadgeSourceForegroundBrush" Color="#2563EB"/>
+    <SolidColorBrush x:Key="BadgeTargetBackgroundBrush" Color="#F0FDF4"/>
+    <SolidColorBrush x:Key="BadgeTargetForegroundBrush" Color="#16A34A"/>
+    <SolidColorBrush x:Key="BadgeProviderBackgroundBrush" Color="#F1F5F9"/>
+    <SolidColorBrush x:Key="BadgeProviderForegroundBrush" Color="#64748B"/>
+    <SolidColorBrush x:Key="BadgeArrowBrush" Color="#94A3B8"/>
+
+    <!-- Hotkey Preview Badge -->
+    <SolidColorBrush x:Key="HotkeyBoxBackgroundBrush" Color="#EFF6FF"/>
+    <SolidColorBrush x:Key="HotkeyBoxBorderBrush" Color="#BFDBFE"/>
+    <SolidColorBrush x:Key="HotkeyBoxForegroundBrush" Color="#1D4ED8"/>
+
+    <!-- Status Messages and Banners -->
+    <SolidColorBrush x:Key="StatusSuccessBackgroundBrush" Color="#F0FDF4"/>
+    <SolidColorBrush x:Key="StatusSuccessBorderBrush" Color="#BBF7D0"/>
+    <SolidColorBrush x:Key="StatusSuccessForegroundBrush" Color="#15803D"/>
+    <SolidColorBrush x:Key="StatusErrorBackgroundBrush" Color="#FEF2F2"/>
+    <SolidColorBrush x:Key="StatusErrorBorderBrush" Color="#FECACA"/>
+    <SolidColorBrush x:Key="StatusErrorForegroundBrush" Color="#B91C1C"/>
+    <SolidColorBrush x:Key="StatusErrorTitleBrush" Color="#991B1B"/>
+
+    <!-- Translation Window Specifics -->
+    <SolidColorBrush x:Key="TranslateButtonBackgroundBrush" Color="#EFF6FF"/>
+    <SolidColorBrush x:Key="TranslateButtonForegroundBrush" Color="#2563EB"/>
+    <SolidColorBrush x:Key="TranslateButtonHoverBackgroundBrush" Color="#DBEAFE"/>
+    <SolidColorBrush x:Key="ProgressBarForegroundBrush" Color="#2563EB"/>
+    <SolidColorBrush x:Key="ProgressBarBackgroundBrush" Color="#E2E8F0"/>
+
+    <!-- ComboBox Brushes -->
+    <SolidColorBrush x:Key="ComboBoxBackgroundBrush" Color="#FFFFFF"/>
+    <SolidColorBrush x:Key="ComboBoxForegroundBrush" Color="#0F172A"/>
+    <SolidColorBrush x:Key="ComboBoxBorderBrush" Color="#CBD5E1"/>
+    <SolidColorBrush x:Key="ComboBoxPopupBackgroundBrush" Color="#FFFFFF"/>
+    <SolidColorBrush x:Key="ComboBoxItemHoverBrush" Color="#F1F5F9"/>
+    <SolidColorBrush x:Key="ComboBoxItemSelectedBrush" Color="#EFF6FF"/>
+    <SolidColorBrush x:Key="ComboBoxArrowBrush" Color="#475569"/>
+
+</ResourceDictionary>
