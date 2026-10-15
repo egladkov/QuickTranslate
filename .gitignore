@@ -10,3 +10,5 @@ publish/
 .idea/
 *.log
 TestResults/
+release/
+dist/
